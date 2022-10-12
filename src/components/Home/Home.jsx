@@ -5,7 +5,7 @@ import image from '../../images/quiz.png';
 const Home = () => {
     return (
         <div className='home-container'>
-            <h1>"""Welcome to myQuiz Quiz Challenge"""</h1>
+            
             
             <header className='homeInfo'>
                     <div className="text">
