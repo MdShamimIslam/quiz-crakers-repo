@@ -1,0 +1,26 @@
+.question-ans{
+    width: 1300px;
+    background-color: lightblue;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+
+.question-ans h3{
+    font-size:21px ;
+}
+.question-ans p{
+    font-size: 18px;
+}
+
+.question-ans h3 span{
+    font-size:21px ;
+    color: green;
+}
+
+.question-ans p span{
+    font-size:19px ;
+    font-weight: bold;
+    color: rgb(128, 0, 96);
+}

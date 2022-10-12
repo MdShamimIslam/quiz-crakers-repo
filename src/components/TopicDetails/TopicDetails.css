@@ -1,0 +1,33 @@
+.ques-ans-info{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 1400px;
+    margin: 50px auto;
+    padding: 30px 10px;
+    background-color: rgb(182, 221, 221);
+}
+
+.question{
+    /* display: flex;
+    align-items: center;
+    justify-content:space-evenly; */
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+}
+
+.icon{
+    width: 20px;
+    color:purple;
+    margin-top: 25px;
+}
+
+.option{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.span {
+    font-size: 18px;
+    
+}

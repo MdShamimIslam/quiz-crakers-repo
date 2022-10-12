@@ -1,16 +1,20 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { Navigate, useLoaderData, useNavigate } from 'react-router-dom';
 import Topic from '../Topic/Topic';
+import './Topics.css';
 
 const Topics = () => {
     const topics=useLoaderData();
-    console.log(topics);
+    // console.log(topics);
+
+    
     return (
-        <div>
+        <div className='topics-container'>
             {
                 topics.data.map(topic => <Topic
                     key={topic.id}
                     topic={topic}
+             
                 ></Topic>)
             }
         </div>

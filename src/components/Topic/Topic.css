@@ -1,0 +1,33 @@
+.topic{
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 15px;
+    width: 300px;
+    background-color: rgb(212, 240, 240);
+    
+}
+
+.topic img{
+    width: 290px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.topic-info{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.topic button{
+    background-color:rgb(206, 196, 196);
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.topic button:hover{
+    background-color: chartreuse;
+}
+
