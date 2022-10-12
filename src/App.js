@@ -7,6 +7,7 @@ import Main from './layouts/Main';
 import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import TopicDetails from './components/TopicDetails/TopicDetails';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   const router=createBrowserRouter([
@@ -40,8 +41,13 @@ function App() {
         path:'/blog',
         element:<Blog></Blog>
       },
-    ]
-   }
+    ],
+    
+   },
+   {
+    path:'*',
+    element:<NotFound></NotFound>
+  }
   ])
   return (
     <div className="App">
