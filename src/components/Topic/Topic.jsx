@@ -16,7 +16,6 @@ const Topic = ({topic}) => {
             <div className="topic-info">
                 <h2>{name}</h2>
                 <h4>Total Quiz: {total}</h4>
-                
                     <button onClick={handleNavigate}>Start</button>          
             </div>
         </div>
