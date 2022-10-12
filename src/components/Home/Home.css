@@ -1,0 +1,29 @@
+.home-container h1{
+    color: purple;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.homeInfo{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 20px 80px;
+}
+
+.text{
+    width: 600px;
+    text-align: center;
+}
+
+.text p{
+    font-size: 19px;
+}
+
+.image{
+    width: 400px;
+    margin-top: 75px;
+   
+}
+.text h1{
+    color: rgb(47, 45, 50);
+}

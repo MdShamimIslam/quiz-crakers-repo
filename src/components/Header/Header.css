@@ -1,0 +1,36 @@
+.header a{
+    text-decoration: none;
+    margin-right:40px;
+    font-size: 19px;
+    color: white;
+}
+
+.header a:hover{
+    background-color: orange;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: black;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    padding: 2px 30px;
+    color: white;
+      
+}
+
+.header h1{
+    margin-left: 40px;
+    
+}
+
+.active
+{
+    background-color: orange;
+    border-radius: 15px;
+    padding: 5px 15px;
+    
+}
