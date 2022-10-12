@@ -1,3 +1,22 @@
+
+#### ........About my Quiz Project.......
+
+# my project name 'my-quiz'
+# Github link ('')
+# Live site link ('')
+# At first I create npm  file by this code npx create-react-app
+# Then I install router
+# Then I run it
+# Then I create  all components I need
+# When projects are finish then I deploy it in a netlify etc.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
